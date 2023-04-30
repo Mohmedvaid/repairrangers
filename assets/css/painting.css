@@ -9,21 +9,3 @@
   width: 819px;
   height: 674px;
 }
-.owl-carousel .item .thumb {
-  position: relative;
-  overflow: hidden;
-  width: 100%; /* adjust the width according to your needs */
-  height: 300px; /* adjust the height according to your needs */
-}
-
-.owl-carousel .item .thumb img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 100%; /* or "auto" if you want to maintain the original image width */
-  height: auto;
-  transform: translate(-50%, -50%);
-  min-height: 100%;
-  min-width: 100%;
-  object-fit: cover;
-}
