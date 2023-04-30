@@ -1,0 +1,11 @@
+.main-banner:before {
+  content: "";
+  background-image: url(../images/banner-right-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  right: 0;
+  top: 100px;
+  width: 819px;
+  height: 674px;
+}

@@ -945,7 +945,7 @@ Banner Style
   height: 532px;
 }
 
-.main-banner:before {
+/* .main-banner:before {
   content: "";
   background-image: url(../images/banner-right-image.png);
   background-repeat: no-repeat;
@@ -955,7 +955,7 @@ Banner Style
   top: 100px;
   width: 819px;
   height: 674px;
-}
+} */
 
 .main-banner .item {
   margin-right: 45px;
