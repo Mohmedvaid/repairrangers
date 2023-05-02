@@ -957,6 +957,10 @@ Banner Style
   height: 674px;
 } */
 
+.theme-color {
+  color: #ff695f;
+}
+
 .main-banner .item {
   margin-right: 45px;
 }
@@ -973,6 +977,18 @@ Banner Style
   font-weight: 700;
   color: #2a2a2a;
   line-height: 72px;
+}
+
+/* on mobile device the .main-banner .item h2 should not have a line-height */
+
+@media (max-width: 767px) {
+  .main-banner {
+    padding: 150px 0px 100px 0px;
+  }
+
+  .main-banner .item h2 {
+    line-height: normal;
+  }
 }
 
 .main-banner .item h2 em {
@@ -1792,8 +1808,8 @@ contact
 
 .contact-us .info span a {
   color: #ff685f;
-  font-size: 14px;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 500;
   line-height: 25px;
   text-transform: none;
 }
@@ -2035,6 +2051,7 @@ responsive
     margin-right: 0px;
     text-align: center;
   }
+
   .our-videos ul.nacc li {
     transform: translateX(0px);
     transform: translateY(-50px);
@@ -2094,6 +2111,9 @@ responsive
   }
   .contact-us .info span {
     margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
   }
 }
 
