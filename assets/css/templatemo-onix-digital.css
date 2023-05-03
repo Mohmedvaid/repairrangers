@@ -972,14 +972,25 @@ Banner Style
   margin-bottom: 15px;
 }
 
-.main-banner .item h2 {
+/* on mobile device the .main-banner .item h2 should not have a line-height */
+
+/* h1 */
+.main-banner .item h1 {
   font-size: 50px;
   font-weight: 700;
   color: #2a2a2a;
   line-height: 72px;
 }
 
-/* on mobile device the .main-banner .item h2 should not have a line-height */
+.main-banner .item h1 em {
+  color: #03a4ed;
+  font-style: normal;
+}
+
+.main-banner .item h1 span {
+  color: #ff695f;
+}
+/* h1 */
 
 @media (max-width: 767px) {
   .main-banner {
@@ -989,6 +1000,15 @@ Banner Style
   .main-banner .item h2 {
     line-height: normal;
   }
+  .main-banner .item h1 {
+    line-height: normal;
+  }
+}
+.main-banner .item h2 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #2a2a2a;
+  line-height: 72px;
 }
 
 .main-banner .item h2 em {
