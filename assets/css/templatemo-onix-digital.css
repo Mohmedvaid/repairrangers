@@ -2156,3 +2156,13 @@ responsive
   min-width: 100%;
   object-fit: cover;
 }
+
+/* custom */
+
+.partners .sm-img img {
+  width: 75px !important;
+}
+
+.partners .lg-img img {
+  width: 75px !important;
+}
